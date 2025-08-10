@@ -1,0 +1,13 @@
+programa
+{
+	
+inteiro number = 0
+	funcao inicio()
+	{
+		enquanto(number < 20){
+           number++
+            escreva(number, "\n")
+		}
+	}
+}
+
