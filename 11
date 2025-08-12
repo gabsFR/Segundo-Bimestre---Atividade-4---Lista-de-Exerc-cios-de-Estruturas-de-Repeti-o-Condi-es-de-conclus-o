@@ -1,0 +1,24 @@
+programa
+{
+	
+inteiro paisA, paisB
+real taxa1, taxa2
+	inteiro anos = 0
+	funcao inicio()
+	{
+		escreva("informe a população e a taxa de cada pais\n")
+		 leia(paisA,paisB, taxa1, taxa2)
+		enquanto(paisA < paisB){
+			
+
+			paisA = paisA + (paisA * taxa1)
+			paisB = paisB + (paisB * taxa2)
+			
+			anos++
+			
+		}
+
+		escreva("se passaram ", anos, " anos")
+	}
+}
+
