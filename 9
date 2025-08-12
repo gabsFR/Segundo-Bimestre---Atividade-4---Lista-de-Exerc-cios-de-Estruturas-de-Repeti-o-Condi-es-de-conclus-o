@@ -1,0 +1,29 @@
+programa
+{
+	inclua biblioteca Texto
+ --> t
+     cadeia nome
+     inteiro idade
+     real salario
+	
+	funcao inicio()
+	{
+		 escreva("informe seu nome, idade e salario:\n")
+		 leia(nome,idade,salario)
+
+		 se(t.numero_caracteres(nome) < 3){
+		 	escreva("\nnome invalido")
+		 }
+		 
+		 se(idade < 0 ou idade > 150){
+		 		escreva("\nidade invalida")
+		 }
+		 
+		 se(salario < 0){
+		 	escreva("\nsalario invalido,kkkj pobre")
+		 }
+		 
+		 escreva("\n\nnome: ", nome, "\nidade: ", idade, "\nsalario: ", salario)
+		 
+	}
+}
