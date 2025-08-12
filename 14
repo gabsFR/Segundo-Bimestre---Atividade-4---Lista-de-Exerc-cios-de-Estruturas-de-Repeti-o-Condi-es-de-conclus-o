@@ -1,0 +1,16 @@
+programa
+{
+	
+inteiro num, tabu = 0
+	funcao inicio()
+	{
+		escreva("tabuada simulator: ")
+		 leia(num)
+		  escreva("tabuada do ", num, "\n")
+		  para(inteiro tabu=0; tabu <= 10; tabu++){
+		   
+		  	escreva(num, " x ", tabu, " = ", num*tabu,"\n")
+
+		}
+	}
+}
