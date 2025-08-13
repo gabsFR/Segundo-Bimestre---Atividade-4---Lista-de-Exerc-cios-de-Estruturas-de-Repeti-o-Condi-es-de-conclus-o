@@ -1,0 +1,80 @@
+programa
+{
+	
+inteiro num[5]
+	funcao inicio()
+	{
+		escreva("diga 5 numeros:\n")
+		leia(num[0], num[1], num[2], num[3], num[4])
+
+		 se(num[0] > num[1]){
+		 	escreva("o maior numero e: ", num[0])
+		 }
+		  senao se(num[0] > num[2]){
+		 	escreva("o maior numero e: ", num[0])
+		 }
+		 senao se(num[0] > num[3]){
+		 	escreva("o maior numero e: ", num[0])
+		 }
+		 senao se(num[0] > num[4]){
+		 	escreva("o maior numero e: ", num[0])
+		 } 	 	
+
+				 se(num[1] > num[0]){
+		 	escreva("o maior numero e: ", num[1])
+		 }
+		  senao se(num[1] > num[2]){
+		 	escreva("o maior numero e: ", num[1])
+		 }
+		 senao se(num[1] > num[3]){
+		 	escreva("o maior numero e: ", num[1])
+		 }
+		 senao se(num[1] > num[4]){
+		 	escreva("o maior numero e: ", num[1])
+		 } 	 	
+
+				 se(num[2] > num[0]){
+		 	escreva("o maior numero e: ", num[2])
+		 }
+		  senao se(num[2] > num[1]){
+		 	escreva("o maior numero e: ", num[2])
+		 }
+		 senao se(num[2] > num[3]){
+		 	escreva("o maior numero e: ", num[2])
+		 }
+		 senao se(num[2] > num[4]){
+		 	escreva("o maior numero e: ", num[2])
+		 } 	 	
+
+				 se(num[3] > num[0]){
+		 	escreva("o maior numero e: ", num[3])
+		 }
+		  senao se(num[3] > num[1]){
+		 	escreva("o maior numero e: ", num[3])
+		 }
+		 senao se(num[3] > num[2]){
+		 	escreva("o maior numero e: ", num[3])
+		 }
+		 senao se(num[3] > num[4]){
+		 	escreva("o maior numero e: ", num[3])
+		 } 	 	
+
+				 se(num[4] > num[0]){
+		 	escreva("o maior numero e: ", num[4])
+		 }
+		  senao se(num[4] > num[1]){
+		 	escreva("o maior numero e: ", num[4])
+		 }
+		 senao se(num[4] > num[2]){
+		 	escreva("o maior numero e: ", num[4])
+		 }
+		 senao se(num[4] > num[3]){
+		 	escreva("o maior numero e: ", num[4])
+		 } 	 	
+
+
+
+
+		
+	}
+}
