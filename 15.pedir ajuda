@@ -1,0 +1,17 @@
+programa
+{
+	
+inteiro base, expoente, produto
+	funcao inicio()
+	{
+		escreva("potencia simulator: \n")
+		 leia(base, expoente)
+		 
+		  para(inteiro i=0; i < expoente; i++){
+		  	 base = base * expoente
+		  	  escreva(base, " - ")
+		  	  
+
+		}
+	}
+}
