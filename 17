@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero_a = 0, numero_b = 1, numero_c
+
+		escreva(numero_a, " ", numero_b, " ")
+
+		para(inteiro i=0; i < 500; i++){
+
+			numero_c = numero_a + numero_b
+
+			escreva(numero_c, " - ")
+
+			numero_a = numero_b
+			numero_b = numero_c
+
+		}
+		
+	}
+}
