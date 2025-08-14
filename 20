@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+inteiro n1, n2, soma
+	funcao inicio()
+	{
+		escreva("Me diga 2 numberossros:\n")
+		 leia(n1, n2)
+
+		se(n1 < 0 ou n1 > 1000 ou n2 < 0 ou n2 > 1000){
+			escreva("numero incorreto")
+			
+		}senao{
+		
+		 escreva("O maior numero é: ",m.maior_numero(n1, n2), "\nE o menor numero é: ", m.menor_numero(n1, n2))
+		 escreva("\nA soma de ambos os numeros é: ", n1 + n2)
+		}
+	}
+}
