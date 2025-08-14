@@ -1,0 +1,21 @@
+programa
+{
+	
+inteiro soma
+	funcao inicio()
+	{
+		inteiro num[5]
+		escreva("me fale 5 numebros: \n")
+		
+		para(inteiro i=0; i < 5; i++){
+			leia(num[i])
+
+		}
+		
+		
+			soma = num[0] + num[1] + num[2] + num[3] + num[4]
+
+			 escreva("a soma total é: ", soma, "\ne a média total é: ", soma / 5)
+		}
+	
+}
