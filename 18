@@ -1,0 +1,28 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro numero, i, fatorial
+
+        escreva("Digite um número inteiro para calcular o fatorial: ")
+        leia(numero)
+
+        
+        se (numero < 0)
+        {
+            escreva("Fatorial não está definido para números negativos.\n")
+        }
+        senao
+        {
+            fatorial = 1
+
+            para (i = 1; i <= numero; i++)
+            {
+                fatorial = fatorial * i
+            }
+
+            escreva("O fatorial de ", numero, " é: ", fatorial, "\n")
+        }
+    }
+    //programa totalmente real feito por mim
+}
